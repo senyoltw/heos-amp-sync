@@ -15,3 +15,10 @@ let remo_token = 'set your token'
 let remo_signal = 'set your signal'
 ```
 4. npm install and npm start
+
+5. daemon process by pm2
+```
+npm install -g pm2
+pm2 start npm --name heos-amp-sync -- start
+pm2 save
+```
