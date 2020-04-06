@@ -1,0 +1,17 @@
+{
+    "name": "heos-amp-sync",
+    "version": "1.0.0",
+    "description": "Sync Amplifier and Network Audio Player using HEOS and NATURE REMO",
+    "main": "heos-amp-sync.js",
+    "dependencies": {
+        "heos-api": "^4.0.0",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node heos-amp-sync.js"
+    },
+    "author": "senyoltw",
+    "license": "MIT License"
+}
