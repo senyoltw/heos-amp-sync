@@ -6,7 +6,7 @@ let remo_token = 'set your token'
 /// set your signal
 let remo_signal = 'set your signal'
 
-let cur_state = 'null'
+let cur_state = 'stop'
 const options = {
     url: `https://api.nature.global/1/signals/${remo_signal}/send`,
     headers: { 'authorization': `Bearer ${remo_token}` },
