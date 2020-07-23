@@ -1,10 +1,9 @@
 const heos = require('heos-api')
 const request = require('request')
 
-/// set your token
-let remo_token = 'set your token'
-/// set your signal
-let remo_signal = 'set your signal'
+/// set your token&signal 
+const remo_token = process.env.remo_token
+const remo_signal = process.env.remo_signal
 
 let cur_state = 'stop'
 const options = {
