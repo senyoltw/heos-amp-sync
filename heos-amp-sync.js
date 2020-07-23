@@ -23,8 +23,7 @@ function amp_power(state) {
             } else {
                 cur_state = state
             }
-        }
-        )
+        })
     }
 }
 
