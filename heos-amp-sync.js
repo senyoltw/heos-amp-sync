@@ -50,4 +50,8 @@ heos.discoverAndConnect().then(connection =>
                 }
             }
         )
+        .onError(error => {
+            console.error(error)
+            process.exit(1)
+        })
 )
