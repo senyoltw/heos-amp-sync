@@ -7,12 +7,10 @@ Sync Amplifier and Network Audio Player using HEOS and NATURE REMO
 ```
 % curl -H 'Authorization: Bearer <token>' -H "accept: application/json" -X GET "https://api.nature.global/1/appliances" |jq
 ```
-3. write to eos-amp-sync.js
+3. write to .env
 ```
-/// set your token
-let remo_token = 'set your token'
-/// set your signal
-let remo_signal = 'set your signal'
+remo_token = 'set your token'
+remo_signal = 'set your signal'
 ```
 4. npm install and npm start
 
