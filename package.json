@@ -4,7 +4,6 @@
     "description": "Sync Amplifier and Network Audio Player using HEOS and NATURE REMO",
     "main": "heos-amp-sync.js",
     "dependencies": {
-        "dotenv": "^8.2.0",
         "heos-api": "^4.0.0",
         "request": "^2.88.2"
     },
