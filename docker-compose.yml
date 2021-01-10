@@ -8,4 +8,5 @@ services:
             TZ: Asia/Tokyo
             remo_token: xxxxxxxxxx
             remo_signal: yyyyyyyyyyy
+        network_mode: host
         restart: always
