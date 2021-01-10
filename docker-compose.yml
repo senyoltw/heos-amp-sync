@@ -6,4 +6,6 @@ services:
         container_name: heos-amp-sync
         environment:
             TZ: Asia/Tokyo
+            remo_token: xxxxxxxxxx
+            remo_signal: yyyyyyyyyyy
         restart: always
