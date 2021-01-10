@@ -1,6 +1,5 @@
 const heos = require('heos-api')
 const request = require('request')
-//require('dotenv').config()
 
 /// set your token&signal 
 const remo_token = process.env.remo_token
