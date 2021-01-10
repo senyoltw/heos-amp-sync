@@ -7,16 +7,13 @@ Sync Amplifier and Network Audio Player using HEOS and NATURE REMO
 ```
 % curl -H 'Authorization: Bearer <token>' -H "accept: application/json" -X GET "https://api.nature.global/1/appliances" |jq
 ```
-3. write to .env
+3. write to docker-compose.yml
 ```
 remo_token = 'set your token'
 remo_signal = 'set your signal'
 ```
-4. npm install and npm start
-
-5. daemon process by pm2
+4. build and start
 ```
-npm install -g pm2
-pm2 start npm --name heos-amp-sync -- start
-pm2 save
+docker-compose build
+docker-compose up -d
 ```
