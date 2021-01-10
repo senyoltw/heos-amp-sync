@@ -1,0 +1,9 @@
+version: '3'
+services:
+    heos-amp-sync:
+        build:
+          context: .
+        container_name: heos-amp-sync
+        environment:
+            TZ: Asia/Tokyo
+        restart: always
